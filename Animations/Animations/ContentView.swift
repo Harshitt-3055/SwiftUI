@@ -14,7 +14,7 @@ struct ContentView: View {
             animationAmount += 1
         }
         .padding(50)
-        .background(.white)
+        .background(.blue)
         .foregroundStyle(.white)
         .clipShape(.circle)
         .scaleEffect(animationAmount)
