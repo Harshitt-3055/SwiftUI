@@ -13,7 +13,7 @@ struct ContentView: View {
         Button("Tap me ") {
             animationAmount += 1
         }
-        .padding(100)
+        .padding(200)
         .background(.blue)
         .foregroundStyle(.white)
         .clipShape(.circle)
